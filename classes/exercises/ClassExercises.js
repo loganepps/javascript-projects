@@ -87,7 +87,10 @@ let makingTheShip = new Manual(
 );
 
 // Code exercises 4 & 5 here:
-console.log(makingTheShip.dispose(this.copyright));
+makingTheShip.dispose(2024);
+console.log(makingTheShip.discarded);
 
-console.log(prideAndPrejudice.checkout(5));
-console.log(prideAndPrejudice.dispose(this.copyright));
+prideAndPrejudice.checkout(5);
+prideAndPrejudice.dispose();
+console.log(prideAndPrejudice.timesCheckedOut);
+console.log(prideAndPrejudice.discarded);
