@@ -82,3 +82,4 @@ console.log(
     gladGladiator.name
   } earned an average test score of ${gladGladiator.average()}% and has a status of ${gladGladiator.status()}`
 );
+
