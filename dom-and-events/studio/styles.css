@@ -1,5 +1,5 @@
 #shuttleBackground {
-    background-color: green;
+    background-color: olivedrab;
     display: inline-block;
     height: 80%;
     width: 40%;
@@ -7,7 +7,7 @@
 }
 
 #flightStatus {
-    color: green;
+    color: olivedrab;
 }
 
 #flightDisplay {
